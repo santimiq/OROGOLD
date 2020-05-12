@@ -5,7 +5,6 @@ $base-gold: #9E802D;
   position: fixed;
   width: 100%;
   z-index: 100;
-
   .headergroup {
     display: flex;
     justify-content: space-between;
@@ -33,6 +32,17 @@ $base-gold: #9E802D;
         font-size: 12px;
         border: 2px solid $base-gold;
         padding: 2px 18px;
+        outline: none;
+        cursor: pointer;
+        transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+        &:hover {
+          color: #000;
+          background-color: $base-gold;
+          border: 2px solid $base-gold;
+          padding: 2px 18px;
+          box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+          transform: translateY(-3px);
+        }
       }
     }
   }
