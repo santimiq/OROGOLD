@@ -1,32 +1,23 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import logo from "../images/logo-orogold.png"
+import header from "../styles/header.scss"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
+  <header className="full-header">
+    <div className="headergroup">
+      <div className="logo-group">
+        <Link to="/">
+          <img src={logo} alt="" className="logo"/>
         </Link>
-      </h1>
+      </div>
+      <div className="info-group">
+        <p>orogoldspa@orogold.com</p>
+        <button>
+          Reserva ahora
+        </button>
+      </div>
     </div>
   </header>
 )
