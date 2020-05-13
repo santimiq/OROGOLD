@@ -6,17 +6,17 @@ import header from "../styles/header.scss"
 
 const Header = ({ siteTitle }) => (
   <header className="full-header">
-    <div className="headergroup">
-      <div className="logo-group">
-        <Link to="/">
-          <img src={logo} alt="" className="logo"/>
-        </Link>
-      </div>
-      <div className="info-group">
-        <p>orogoldspa@orogold.com</p>
-        <button>
-          Reserva ahora
-        </button>
+    <div className="container">
+      <div className="headergroup">
+        <div className="logo-group">
+          <Link to="/">
+            <img src={logo} alt="" className="logo" />
+          </Link>
+        </div>
+        <div className="info-group">
+          <p>orogoldspa@orogold.com</p>
+          <button>Reserva ahora</button>
+        </div>
       </div>
     </div>
   </header>

@@ -1,14 +1,18 @@
 $base-gold: #9E802D;
 
+
+//Header
+
 .full-header {
   background: #000;
-  position: fixed;
   width: 100%;
   z-index: 100;
   .headergroup {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 20px 100px;
+    height: 80px;
+    padding: 0 50px;
     .logo-group{
       .logo {
         width: 150px;

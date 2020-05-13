@@ -1,0 +1,47 @@
+$base-gold: #9E802D;
+
+.form {
+  background-image: url("../images/bg-principal.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: right;
+  background-size: cover;;
+  height: 600px;
+  padding: 0 50px;
+  .form-group{
+    display: flex;
+    height: 600px;
+    .text-group{
+      width: 50%;
+      display: block;
+      align-self: center;
+      h1 {
+        color: $base-gold;
+        letter-spacing: 2px;
+        font-size: 60px;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      p {
+        color: white;
+        font-size: 18px;
+      }
+    }
+    .form-contact {
+      display: block;
+      align-self: center;
+      form {
+        display: block;
+        background-color: white;
+        padding: 30px 15px;
+        input {
+
+        }
+        button {
+
+        }
+      }
+    }
+  }
+}
