@@ -1,5 +1,5 @@
 import React from "react"
-import Tipos from "./Tipos"
+import Tipos from "./tipos"
 
 import tratamiento from "../styles/tratamiento.scss"
 

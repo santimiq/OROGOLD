@@ -1,0 +1,25 @@
+$base-gold: #9E802D;
+.quienes-somos {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/bg-nosotros.jpg);
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  padding: 50px 120px;
+  background-position: right;
+  h4 {
+    color: gold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  div {
+    margin-bottom: 30px;
+
+    span {
+      color: white;
+      margin-bottom: 30px;
+    }
+  }
+  p {
+    color: white;
+  }
+}

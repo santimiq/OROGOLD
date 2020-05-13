@@ -6,8 +6,9 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 //Components
-import SectionForm from "../components/Form"
-import Tratamiento from "../components/Tratamiento"
+import SectionForm from "../components/form"
+import Tratamiento from "../components/tratamiento"
+import Nosotros from "../components/nosotros"
 
 
 const IndexPage = () => (
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <Layout>
       <SectionForm />
       <Tratamiento />
+      <Nosotros />
     </Layout>
 
 )
