@@ -9,6 +9,7 @@ import SEO from "../components/seo"
 import SectionForm from "../components/form"
 import Tratamiento from "../components/tratamiento"
 import Nosotros from "../components/nosotros"
+import Mapa from "../components/mapa"
 
 
 const IndexPage = () => (
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <SectionForm />
     <Tratamiento />
     <Nosotros />
+    <Mapa />
   </Layout>
 )
 
