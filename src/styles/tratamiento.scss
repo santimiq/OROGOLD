@@ -1,0 +1,22 @@
+$base-gold: #9E802D;
+
+.tratamiento {
+  padding: 30px 50px;
+  .descripcion {
+    margin-bottom: 50px;
+    h3 {
+      color: $base-gold;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    p {
+      max-width: 900px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+  .tipos-de-tratamientos {
+    display: flex;
+    justify-content: space-around;
+  }
+}

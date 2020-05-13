@@ -7,12 +7,14 @@ import SEO from "../components/seo"
 
 //Components
 import SectionForm from "../components/Form"
+import Tratamiento from "../components/Tratamiento"
 
 
 const IndexPage = () => (
 
     <Layout>
       <SectionForm />
+      <Tratamiento />
     </Layout>
 
 )

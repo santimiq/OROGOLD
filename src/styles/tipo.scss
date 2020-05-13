@@ -1,14 +1,26 @@
 $base-gold: #9E802D;
 
 .tipo-group {
+  width: 300px;
+  text-align: center;
+  padding: 10px 20px;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
   img {
-    border-radius: 50%;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
   }
   h5 {
     text-transform: uppercase;
     color: $base-gold;
   }
   p {
-    font-size: 12px;
+    font-size: 14px;
+  }
+  &:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+    transform: translateY(-3px);
+    transform: scale(1.1);
   }
 }
