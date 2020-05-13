@@ -31,15 +31,27 @@ $base-gold: #9E802D;
     .form-contact {
       display: block;
       align-self: center;
+      justify-self: flex-end;
       form {
+        min-width: 400px;
+        border-radius: 3px;
         display: block;
         background-color: white;
         padding: 30px 15px;
-        input {
 
+        input {
+          display: block;
+          margin: 20px 0;
+          width: 100%;
         }
         button {
-
+          text-align: center;
+          background-color: $base-gold;
+          color: white;
+          border-radius: 3px;
+          width: 100%;
+          padding: 8px 48px;
+          border: 1px solid $base-gold;
         }
       }
     }

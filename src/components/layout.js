@@ -16,6 +16,8 @@ import "./layout.css"
 import header from "../styles/header.scss"
 import footer from "../styles/footer.scss"
 
+import scrollTo from "gatsby-plugin-smoothscroll"
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

@@ -1,0 +1,28 @@
+$base-gold: #9E802D;
+
+.group-oportunidad {
+  padding: 30px 50px 100px 50px;
+  text-align: center;
+  img {
+    width: 900px;
+  }
+  h3 {
+    color: $base-gold;
+    text-transform: uppercase;
+  }
+  button {
+    padding: 8px 48px;
+    background-color: $base-gold;
+    color: white;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+    &:hover {
+      color: $base-gold;
+      background-color: white;
+      border: 2px solid $base-gold;
+      padding: 8px 48px;
+      box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+      transform: translateY(-3px);
+    }
+  }
+}
+

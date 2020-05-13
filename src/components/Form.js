@@ -9,21 +9,24 @@ const SectionForm = () => {
         <div className="text-group">
           <h1>orogold</h1>
           <p>
-            Cuando belleza y glamour <br/>van de la mano
+            Cuando belleza y glamour <br />
+            van de la mano
           </p>
         </div>
         <div className="form-contact">
-          <form>
+          <form
+            name="contact"
+            method="POST"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+          >
             <h3>Reserva tu cita ahora </h3>
-            <label>
-              First name
-              <input type="text" name="firstName" />
-            </label>
-            <label>
-              Last name
-              <input type="text" name="lastName" />
-            </label>
-            <button type="submit">Submit</button>
+            <input type="text" name="name" placeholder="nombre" />
+
+            <input type="email" name="email" placeholder="email" />
+            <input type="tel" name="phone" placeholder="telefono" />
+
+            <button type="submit">Reservar Ahora</button>
           </form>
         </div>
       </div>

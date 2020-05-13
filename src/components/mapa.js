@@ -7,7 +7,7 @@ const Mapa = () => (
       <div className="map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3762.6974271558124!2d-99.1645727!3d19.425475!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff6b3dbaf75b%3A0x8c21bd502927d0f7!2sAv.%20Insurgentes%20Sur%20105%2C%20Roma%20Sur%2C%20Cuauht%C3%A9moc%2C%2006600%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1589337193536!5m2!1ses-419!2smx"
-          frameborder={0}
+          frameBorder={0}
         />
       </div>
       <div className="text">

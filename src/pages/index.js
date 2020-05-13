@@ -10,14 +10,19 @@ import SectionForm from "../components/form"
 import Tratamiento from "../components/tratamiento"
 import Nosotros from "../components/nosotros"
 import Mapa from "../components/mapa"
+import Oportunidad from "../components/oportunidad"
+
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 
 const IndexPage = () => (
+
   <Layout>
     <SectionForm />
     <Tratamiento />
     <Nosotros />
     <Mapa />
+    <Oportunidad />
   </Layout>
 )
 
