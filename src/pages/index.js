@@ -12,13 +12,11 @@ import Nosotros from "../components/nosotros"
 
 
 const IndexPage = () => (
-
-    <Layout>
-      <SectionForm />
-      <Tratamiento />
-      <Nosotros />
-    </Layout>
-
+  <Layout>
+    <SectionForm />
+    <Tratamiento />
+    <Nosotros />
+  </Layout>
 )
 
 export default IndexPage

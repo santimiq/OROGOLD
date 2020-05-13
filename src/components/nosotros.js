@@ -1,6 +1,8 @@
 import React from "react"
 import nosotros from "../styles/nosotros.scss"
 
+
+
 const Nosotros = () => (
   <div className="quienes-somos">
     <h4>Quienes somos</h4>
