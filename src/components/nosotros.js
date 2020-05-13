@@ -1,6 +1,8 @@
 import React from "react"
 import nosotros from "../styles/nosotros.scss"
-
+import AliceCarousel from "react-alice-carousel"
+import "react-alice-carousel/lib/alice-carousel.css"
+import Gallery from "../components/carousel"
 
 
 const Nosotros = () => (
@@ -19,6 +21,9 @@ const Nosotros = () => (
       COSMETICS asegura la disponibilidad de una gama de relajantes tratamientos
       faciales y corporales para mimarse y revitalizarse.
     </p>
+    <div>
+      <Gallery />
+    </div>
   </div>
 )
 

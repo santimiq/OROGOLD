@@ -1,3 +1,8 @@
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+.alice-carousel__wrapper {
+  height: 200px !important;
+}
 $base-gold: #9E802D;
 .quienes-somos {
   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/bg-nosotros.jpg);
